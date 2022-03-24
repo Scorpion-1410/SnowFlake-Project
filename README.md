@@ -1,6 +1,6 @@
 # SnowFlake-Project
 ## Soruce_Codes Folder
-This folder contains Data Definition Language (DDL) for creating,
+This folder contains Data Definition Language (DDL) for creating,\
 1-: Database named SF_Project.\
 2-: Three schemas named ITR_RDS_Landing for extracting data from the S3 Bucket, ITR_RDS schema to storing the transformed data from ITR_RDS_Landing and ITR_DIS schema for storing data after SCD(Slowly Changing Dimension).\
 3-: Three tables named as flight which is the primary table, flight_scd which is the table for storing the data for SCD part and target_flight which the consumer table for flight_scd.\
