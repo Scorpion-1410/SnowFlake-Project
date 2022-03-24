@@ -1,0 +1,1 @@
+create or replace  stream flight_stream on table flight_scd;
